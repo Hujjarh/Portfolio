@@ -29,9 +29,10 @@ p{
 }
 
 @media screen and (max-width:800px) {
+    justify-content: center;
     max-width: 300px;
     margin-top: 5em;
-    margin-right: 30px;
+    /* margin-right: 30px; */
     h1{
         font-size: 20px;
         font-weight: bold;

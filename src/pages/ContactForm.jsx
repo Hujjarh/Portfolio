@@ -43,7 +43,6 @@ const Wrapper = styled.div`
   margin-top: 5rem;
   @media screen and (max-width:800px) {
     flex-direction: column;
-    margin-top: 0;
   }
 `;
 
@@ -74,11 +73,12 @@ const InfoSection = styled.div`
 `;
 
 const Container = styled.div`
-  width: 100%;
+  width: 90%;
   margin-bottom: 2rem;
   max-width: 500px;
   background-color: #fff;
   padding: 2rem;
+  justify-content: center;
   border-radius: 8px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   text-align: center;

@@ -32,8 +32,8 @@ const Container = styled.div`
 
   @media screen and (max-width: 800px) {
     min-width: 80%;
-    margin-left: auto;
-    margin-right: auto;
+    /* margin-left: auto; */
+    /* margin-right: auto; */
   }
 `;
 

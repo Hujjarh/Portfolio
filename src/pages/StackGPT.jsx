@@ -79,6 +79,7 @@ const Container = styled.div`
   }
 
   @media screen and (max-width: 800px) {
+    margin-top: 3em;
     h1 {
       font-size: 2rem;
     }
@@ -105,6 +106,9 @@ const Tools = styled.div`
 
 const ToolGrid = styled.div`
   display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
   gap: 1.5rem;
   margin-top: 1rem;
 
