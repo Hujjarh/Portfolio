@@ -7,6 +7,7 @@ import landing from '../assets/productImage/landing.png';
 import banner from '../assets/productImage/banner.png';
 import attachment from '../assets/akar-icons_link-chain.svg';
 import github from '../assets/akar-icons_github-fill.svg';
+import advice from '../assets/desktop_design.jpg';
 
 const Project = () => {
   return (
@@ -26,6 +27,20 @@ const Project = () => {
               <img src={attachment} alt="Live preview" />Live preview
             </a>
             <a href="https://github.com/Hujjarh/nexcent" target='_blank'>
+              <img src={github} alt="View Code" />View Code
+            </a>
+          </Link>
+        </Card>
+        <Card>
+          <img src={advice} alt="Advice Generator App" />
+          <h2>Advice Generator App</h2>
+          <p>Created from scratch a desktop and mobile responsive Landing page for Nexcent. This project helped me practice GitHub Pages.</p>
+          <p>Tech stack: HTML, CSS, React, JavaScript</p>
+          <Link>
+            <a href="https://advice-generator-nine-hazel.vercel.app/" target='_blank'>
+              <img src={attachment} alt="Live preview" />Live preview
+            </a>
+            <a href="https://github.com/Hujjarh/Advice-generator" target='_blank'>
               <img src={github} alt="View Code" />View Code
             </a>
           </Link>

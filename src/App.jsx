@@ -7,6 +7,7 @@ import './App.css'
 import ContactForm from './pages/ContactForm'
 import StackGPT from './pages/StackGPT'
 import AboutGPT from './pages/AboutGPT'
+import Footer from './static/Footer'
 
 const App = () => {
 
@@ -21,12 +22,7 @@ const App = () => {
         <Route path='/project' element={<Project />}/>
         <Route path='/contact' element={<ContactForm />}/>
       </Routes>
-
-      
-      
-      
-      
-      
+ 
     </BrowserRouter>
     
     </>
